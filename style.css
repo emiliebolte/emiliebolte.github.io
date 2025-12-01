@@ -1,0 +1,27 @@
+h1{
+font-size: 30px;
+text-align: center;
+color: #9651DB;
+font-family: congenial, black
+}
+h2{
+font-size: 28px;
+text-align: center;
+color: #B372F5;
+font-family: congenial, black
+}
+h3{
+font-size: 24px;
+text-align: left;
+color: #D5B1FA;
+font-family: congenial, black
+}
+p{
+font-size: 20px;
+text-align: left;
+font-family: congenial;
+}
+
+body {
+background-color: #F4E9FE;
+}

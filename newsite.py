@@ -12,7 +12,6 @@ credentials = {'usernames': users_dict}
 # Puis on initialise
 authenticator = Authenticate(credentials, "cookie_name", "cookie_key", 30)
 authenticator.login()
-st.write("Utilisez root/rootMDP ou Emilie/emilie pour vous connecter")
 
 def accueil():
       st.title("Bienvenue sur ma page")
@@ -45,3 +44,4 @@ elif st.session_state["authentication_status"] is False:
     st.error("L'username ou le password est/sont incorrect")
 elif st.session_state["authentication_status"] is None:
     st.warning('Les champs username et mot de passe doivent être remplis')
+    st.write("Utilisez root/rootMDP ou Emilie/emilie pour vous connecter")

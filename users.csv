@@ -1,0 +1,5 @@
+name;password;email;failed_login_attempts;logged_in;role
+root;rootMDP;root@gmail.com;;False;utilisateur
+Admin;admin;admin@gmail.com;;False;administrateur
+utilisateur;utilisateurMDP;;;False;utilisateur
+Emilie;emilie;ebolte@gmail.coM;0.0;True;utilisateur
